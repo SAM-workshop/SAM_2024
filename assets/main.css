@@ -134,3 +134,22 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 .styled-table td {
     border: 1px solid black;
 }
+
+/* Collapsibles style*/
+.collapsible {
+    padding: 12px 4px 36px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #52739e; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0; 
+    background-color: #ffffff;
+    text-align: left;
+    outline: none;  
+}
+
+.active, .collapsible:hover {
+background-color: #dadada;
+}
+
+.content {
+padding: 0 18px;
+display: none;
+overflow: hidden;
+background-color: #ffffff;
+}
